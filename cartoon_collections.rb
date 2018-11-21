@@ -4,7 +4,7 @@ puts "#{index + 1}. #{name}"}
 end
 
 def summon_captain_planet(planeteer)# code an argument here
-planeteer.collect.capitalize {|planetario| + "!"}
+planeteer.collect{|planetario| planetario.capitalize + "!"}
 end
 
 
