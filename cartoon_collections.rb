@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)# code an argument here
   i = 0
   while i < names.length
-  yield(names[i, index])
+  yield(names[i])
   i = i + 1# Your code here
 end
 puts "#{index + 1}.#{i}"
