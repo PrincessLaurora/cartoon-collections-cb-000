@@ -1,9 +1,9 @@
-def roll_call_dwarves(names)# code an argument here
+def roll_call_dwarves(names)
   names.each_with_index { |name, index|
 puts "#{index + 1}. #{name}"}
 end
 
-def summon_captain_planet(planeteer)# code an argument here
+def summon_captain_planet(planeteer)
 planeteer.collect{|planetario| planetario.capitalize + "!"}
 end
 
@@ -13,7 +13,7 @@ calls.any? {|call| call.length > 4}
 end
 
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese (formaggio)
   cheese_types = ["cheddar", "gouda", "camembert"]
+    formaggio.find {|cheese| formaggio.include?(cheese_types)}
 end
