@@ -8,8 +8,12 @@ planeteer.collect{|planetario| planetario.capitalize + "!"}
 end
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+    if calls.include?(call.size <= 4)
+      return true
+    else
+      false 
+  end
 end
 
 def find_the_cheese# code an argument here
