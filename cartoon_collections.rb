@@ -9,11 +9,7 @@ end
 
 
 def long_planeteer_calls(calls)
-    if calls.include?(call.size <= 4)
-      return true
-    else
-      false
-  end
+calls.any? {|call| call.length > 4}
 end
 
 
